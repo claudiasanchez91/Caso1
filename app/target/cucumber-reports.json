@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "user enters the following data",
+        "description": "",
+        "id": "test-form-functionality;user-enters-the-following-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1421100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56334316200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to https://178.128.77.104/Softesting/Frontend/Caso1.html",
+            "match": {
+              "location": "formularioSteps.navigateToFormu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Enter nameclaudia",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Enter emailcs@sp",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2121400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter the neighborhoodIza",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Iza",
+                  "offset": 22
+                }
+              ],
+              "location": "formularioSteps.enterneighborhood(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter the subjectsaludo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "saludo",
+                  "offset": 17
+                }
+              ],
+              "location": "formularioSteps.entersubject(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter Messagesaludo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "saludo",
+                  "offset": 13
+                }
+              ],
+              "location": "formularioSteps.enterMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Send the information",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "shows message something went wrong",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cart"
+          }
+        ]
+      }
+    ],
+    "name": "Test form functionality",
+    "description": "",
+    "id": "test-form-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/formulario.feature",
+    "tags": []
+  }
+]
